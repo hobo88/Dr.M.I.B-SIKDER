@@ -21,13 +21,12 @@ body {
 }
 header {
   background: var(--dark);
-  height: 600px;
+  height: 500px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
 }
 .container {
-  max-width: 1152px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 2000px;
+  padding: 0 10rem;
 }
 
 header nav .left a {
@@ -126,6 +125,9 @@ section.About p {
 
 section.Achievements {
   background: var(--light);
+  position: relative;
+  text-align: center;
+  align-items: center;
 }
 
 section.Achievements .card-wrapper {
